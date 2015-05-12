@@ -17,8 +17,8 @@ p, li {
 h3 {
  	font-size:32px;
 	font-family: 'Rufina', serif;
-	font-weight: 700;
-	color: #32383B;
+	font-weight: 400;
+	color: #FF7300;
  }
 
 h4 {
@@ -44,13 +44,23 @@ h6 {
 
 }
 
-a:link, a:active {
-	color: #AB3409;
+hr { 
+    display: block;;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    width: 20%;
+    border-color: orange;
+    margin-top: 15px;
+} 
+
+a:link, a:active, a:visited {
+	color: #FF7300;
 	text-decoration: none;
 }
 
-a:hover, a:visited {
-	color: #FF7300;
+a:hover {
+	color: #AB3409;
 	text-decoration: none;
 }
 
@@ -160,10 +170,10 @@ a:hover, a:visited {
 
 #letter {
 	width: 100%;
-	height: 500px;
 	background-color: #32383B;
 	color: white;
 	padding: 20px;
+	overflow: auto;
 }
 
 #letter p {
@@ -174,6 +184,10 @@ a:hover, a:visited {
   padding: 0;
   color: white;
   }
+
+ #letter hr {
+ 	border-color: #575959;
+ }
 
 .lettertitle {
 	font-family: 'Montserrat', serif;
@@ -236,25 +250,82 @@ a:hover, a:visited {
 .programs-body {
 	width: 900px;
 	margin: 0 auto;
+	padding-bottom: 60px;
 }
 
 .program-subhead {
 	background-color: #104269;
+	width: 300px;
 	opacity: .8;
 	position: absolute;
-	margin-left: 178px;
-	margin-top: 500px;
+	margin-top: -200px;
 	color: white;
 	font-family: 'Montserrat', serif;
-	font-size: 38px;
 	font-weight: 400;
+	font-size: 32px;
 	padding: 20px;
-	line-height: 1.1em;
-
+	letter-spacing: 2;
 }
+
+.program-subhead-coverage {
+	background-color: #104269;
+	width: 200px;
+	opacity: .8;
+	position: absolute;
+	margin-top: -290px;
+	color: white;
+	font-family: 'Montserrat', serif;
+	font-weight: 400;
+	font-size: 32px;
+	padding: 20px;
+	letter-spacing: 2;
+}
+
+.program-subhead-dsr {
+	background-color: #104269;
+	width: 200px;
+	opacity: .8;
+	position: absolute;
+	margin-top: -290px;
+	color: white;
+	font-family: 'Montserrat', serif;
+	font-weight: 400;
+	font-size: 32px;
+	padding: 20px;
+	letter-spacing: 2;
+}
+
+.program-subhead-ihp {
+	background-color: #104269;
+	width: 270px;
+	opacity: .8;
+	position: absolute;
+	margin-top: -250px;
+	color: white;
+	font-family: 'Montserrat', serif;
+	font-weight: 400;
+	font-size: 32px;
+	padding: 20px;
+	letter-spacing: 2;
+}
+
+.program-subhead-bop {
+	background-color: #104269;
+	width: 290px;
+	opacity: .8;
+	position: absolute;
+	margin-top: -210px;
+	color: white;
+	font-family: 'Montserrat', serif;
+	font-weight: 400;
+	font-size: 32px;
+	padding: 20px;
+	letter-spacing: 2;
+}
+
 #financials {
 	width: 100%;
-	height: 900px;
+	overflow: auto;
 	background-color: #efefef;
 }
 
@@ -271,6 +342,11 @@ a:hover, a:visited {
 }
 
 /*letter from the president*/
+
+.letter-container {
+	width: 70%;
+	margin: 0 auto;
+}	
 
 .letterback {
 	padding-left: 100px;
