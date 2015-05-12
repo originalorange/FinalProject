@@ -1,0 +1,288 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+  border: 0;
+}
+
+p, li {
+  font-family: "Monda";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5em;
+  padding: 0;
+  color: #32383B;
+  }
+
+ h3 {
+ 	font-size:32px;
+	font-family: 'Rufina', serif;
+	font-weight: 700;
+	color: #32383B;
+ }
+
+ h4 {
+ 	font-size:30px;
+	font-family: 'Rufina', serif;
+	font-weight: 700;
+ 	color: #FF7300;
+ }
+
+h6 {
+	font-size: 15px;
+	font-family: 'Rufina', serif;
+	font-weight: 400;
+ 	color: white;
+
+}
+
+a:link, a:active, a:visited {
+	color: #AB3409;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF7300;
+	text-decoration: none;
+}
+
+.tagline {
+	text-align: center;
+	font-size:38px;
+	font-family: 'Rufina', serif;
+	font-weight: 400;
+	color: #104269;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.logo {
+	padding-top: 4px;
+}
+
+.menu {
+	position: relative;
+	float: right;
+}
+
+.menu ul {
+	margin-top: -55px;
+	margin-right: 35px;
+}
+
+.menu li {
+	list-style-type: none;
+	display: inline;
+	padding-top: 25px;
+	padding-right: 50px;
+}
+
+.menu a {
+	text-decoration: none;
+	font-family: 'Montserrat', serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.menu a:visited, a:active {
+	color: white;
+}
+
+.menu a:hover {
+	color: #bbd9ea;
+}
+
+.header {
+	width:100%;
+	height: 80px;
+	background-color: #104269;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.top-photo {
+	width:100%;
+	height: 800px;
+	background: transparent;
+}
+
+.program-coverage {
+	width:100%;
+	height: 600px;
+	background: transparent;
+}
+
+.program-dsr {
+	width:100%;
+	height: 600px;
+	background: transparent;
+}
+
+.program-ihp {
+	width:100%;
+	height: 600px;
+	background: transparent;
+}
+
+.program-bop {
+	width:100%;
+	height: 600px;
+	background: transparent;
+}
+
+.program-costs {
+	width:100%;
+	height: 600px;
+	background: transparent;
+}
+
+#letter {
+	width: 100%;
+	height: 500px;
+	background-color: #32383B;
+	color: white;
+	padding: 20px;
+}
+
+#letter p {
+  font-family: "Monda";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5em;
+  padding: 0;
+  color: white;
+  }
+
+.lettertitle {
+	font-family: 'Montserrat', serif;
+	letter-spacing: 3px;
+	font-size: 20px;
+	color: #575959;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.dbphoto {
+	width: 30%;
+	float: left;
+	padding: 20px;
+}
+
+.dbphoto img {
+	max-width: 100%;
+}
+
+.dbletter {
+	width: 50%;
+	float: left;
+	padding: 5px;
+}
+
+.btn-letter{
+	padding: 10px 12px;
+	border: 1px solid #FF7300;
+	color: #FF7300;
+	background-color: none;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Montserrat', serif;
+	letter-spacing: 2px;
+	font-size: 16px;
+	float: right;
+	margin-top: 30px;
+}
+
+.btn-letter:hover{
+	opacity: .8;
+}
+
+#programs {
+	width: 100%;
+	height: 80px;
+}
+
+.programstitle {
+	font-family: 'Montserrat', serif;
+	letter-spacing: 3px;
+	font-size: 20px;
+	color: #32383B;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.programs-body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.program-subhead {
+	width: 270px;
+/*	height: 200px;*/
+	background-color: #104269;
+	opacity: .8;
+	position: absolute;
+	margin-left: 178px;
+	margin-top: 330px;
+	color: white;
+	font-family: 'Montserrat', serif;
+	font-size: 38px;
+	font-weight: 400;
+	padding: 20px;
+	line-height: 1.1em;
+
+}
+#financials {
+	width: 100%;
+	height: 900px;
+	background-color: #AB3409;
+}
+
+#graph-endowment {
+	width: 70%;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#leadership {
+	width: 100%;
+	height: 500px;
+	background-color: #104269;
+}
+
+/*letter from the president*/
+
+.letterback {
+	padding-left: 100px;
+	padding-right: 100px;	
+}
+
+.dbheadshot {
+	width: 210px;
+	height: 300px;
+	float: right;
+	background-color: #104269;
+	border: 3px solid #104269;
+	margin-left: 30px;
+}
+
+.dbheadshot img {
+	width: 200px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.dbname h6 {
+	margin-top: -25px;
+	text-align: center;
+}
+
+.dbsignature img {
+	width: 270px;
+	float: left;
+}
