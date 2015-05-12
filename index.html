@@ -15,7 +15,7 @@
 	
 	
 </head>
-<body onLoad="init()">
+</body>
 	<div class="tagline">Affordable, quality healthcare. For everyone.</div>
 	<div class="top-photo"></div>
 	<div class="header">
@@ -146,6 +146,7 @@
 
 
 	<div id="financials">
+		<div class="programstitle">FINANCIALS</div>
 
 		<div id="graph-endowment"></div>
 
@@ -156,7 +157,9 @@
 
 	  $(document).ready(function(){
 
-	  	$('.header').stickThis();
+	  	// $('.header').stickThis();
+
+	  	// $('.header:before').stickThis();
 
 			$('.top-photo').parallax({
 				imageSrc: 'img/PrimeCare-1070.jpg'});
@@ -168,10 +171,10 @@
 				imageSrc: 'img/PrimeCare-441.jpg'});
 
 			$('.program-bop').parallax({
-				imageSrc: 'img/PrimeCare-441.jpg'});
+				imageSrc: 'img/DixonRyanNanny-161.jpg'});
 
 			$('.program-costs').parallax({
-				imageSrc: 'img/PrimeCare-441.jpg'});
+				imageSrc: 'img/DIxonCMWFWorkers-225.jpg'});
 
 			Highcharts.setOptions({
     			 colors: ['#FF7300', '#104269']
@@ -198,13 +201,14 @@
 
 			        yAxis: {
 			        	floor: 0,
+			        	ceiling: 1200,
 			            title: {
 			                text: 'Millions ($)'
 			            },
 			            plotLines: [{
 			                value: 0,
 			                width: 1,
-			                color: '#808080'
+			                color: '#666666'
 			            }]
 			        },
 			        tooltip: {

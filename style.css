@@ -104,6 +104,14 @@ a:hover, a:visited {
 	color: #bbd9ea;
 }
 
+/*.header:before {
+	display: block;
+	content: " ";
+	margin-top: -160px;
+	height: 160px;
+	visibility: hidden;
+}*/
+
 .header {
 	width:100%;
 	height: 80px;
@@ -111,6 +119,8 @@ a:hover, a:visited {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
+
 
 .top-photo {
 	width:100%;
@@ -229,13 +239,11 @@ a:hover, a:visited {
 }
 
 .program-subhead {
-	width: 270px;
-/*	height: 200px;*/
 	background-color: #104269;
 	opacity: .8;
 	position: absolute;
 	margin-left: 178px;
-	margin-top: 330px;
+	margin-top: 500px;
 	color: white;
 	font-family: 'Montserrat', serif;
 	font-size: 38px;
@@ -247,6 +255,7 @@ a:hover, a:visited {
 #financials {
 	width: 100%;
 	height: 900px;
+	background-color: #efefef;
 }
 
 #graph-endowment {
@@ -292,6 +301,24 @@ a:hover, a:visited {
 .dbsignature img {
 	width: 270px;
 	float: left;
+}
+
+.btn-report{
+	padding: 10px 12px;
+	border: 1px solid #FF7300;
+	color: #FF7300;
+	background-color: none;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Montserrat', serif;
+	letter-spacing: 2px;
+	font-size: 16px;
+	float: right;
+	margin-top: 30px;
+}
+
+.btn-report:hover{
+	opacity: .8;
 }
 
 /*directors & staff*/
