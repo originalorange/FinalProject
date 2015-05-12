@@ -2,7 +2,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-  border: 0;
+  	border: 0;
 }
 
 p, li {
@@ -14,19 +14,27 @@ p, li {
   color: #32383B;
   }
 
- h3 {
+h3 {
  	font-size:32px;
 	font-family: 'Rufina', serif;
 	font-weight: 700;
 	color: #32383B;
  }
 
- h4 {
+h4 {
  	font-size:30px;
 	font-family: 'Rufina', serif;
 	font-weight: 700;
  	color: #FF7300;
  }
+
+h5 {
+ 	font-size:18px;
+	font-family: 'Rufina', serif;
+	font-weight: 400;
+ 	color: #FF7300;
+ 	margin-bottom: 0;
+}
 
 h6 {
 	font-size: 15px;
@@ -36,12 +44,12 @@ h6 {
 
 }
 
-a:link, a:active, a:visited {
+a:link, a:active {
 	color: #AB3409;
 	text-decoration: none;
 }
 
-a:hover {
+a:hover, a:visited {
 	color: #FF7300;
 	text-decoration: none;
 }
@@ -239,7 +247,6 @@ a:hover {
 #financials {
 	width: 100%;
 	height: 900px;
-	background-color: #AB3409;
 }
 
 #graph-endowment {
@@ -285,4 +292,11 @@ a:hover {
 .dbsignature img {
 	width: 270px;
 	float: left;
+}
+
+/*directors & staff*/
+
+.staffback {
+	padding-left: 100px;
+	padding-right: 100px;	
 }
