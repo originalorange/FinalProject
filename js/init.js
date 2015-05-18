@@ -6,6 +6,10 @@ $(document).ready(function() {
     e.preventDefault();
     // Scroll the window, stop any previous animation, stop on user manual scroll
     // Check https://github.com/flesler/jquery.scrollTo for more customizability
-    $(window).stop(true).scrollTo(this.hash, {duration:2000, interrupt:true}, {'axis':'y'});
+    $(window).scrollTo(this.hash, {duration:1400, offset:-100}, {'axis':'y'});
   });
 });
+
+
+
+// $('html, body').animate({scrollTop: $('a[href^="#"]').offset().top -100 }, 'slow');
