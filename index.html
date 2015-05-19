@@ -11,6 +11,9 @@
 	<link href='http://fonts.googleapis.com/css?family=Rufina:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
+	<!-- Media query -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<!-- Jquery -->
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	
@@ -30,9 +33,14 @@
 </head>
 
 </body>
+
+	
+
 	<div class="tagline">Affordable, quality healthcare. For everyone.</div>
 	<div class="top-photo"></div>
 	<div class="header">
+		<!-- Mobile nav -->
+		<img src="img/menu_burger_w.png" class="burger">
 		<div class ="logo"> 
 			<a href="http://www.commonwealthfund.org"> 
 			<img src="img/CFlogo.png" width="250px">
@@ -192,18 +200,29 @@
 				<h5>Cathy Schoen, Senior Vice President for Policy, Research and Evaluation stepped down in June after nearly 20 years at the Fund.</h5> 
 				<p>Cathy was a member of the Fund's executive management team since 2005 and served as the research director for the Fund's landmark Commission on a High Performance Health System. From 1998 to 2005 she directed the Fund's Task Force on the Future of Health Insurance and she launched and oversaw the Fund's scorecard activities which have contributed significantly to the understanding of the variability in the country's health care system and the potential to improve.  Prior to joining the fund, Cathy taught health economics and directed the Service Employee International Union's   policy and research department and served as staff for President Carter's national health insurance task force.   Former Fund president Karen Davis noted, "Cathy is largely responsible for the Fund's outstanding reputation as a source of timely, important, reliable and policy relevant information. The Fund would not be what it is without the dedication, hard work and immense talent that she brought to her work."</p>
 				<p>The Fund is deeply grateful for the contributions of these two long tenured senior staff members and wishes them well in their next stage of life.</p>
-			</div>
-		<a class="btn-letter" href="staff.html">FULL STAFF LIST</a>
-
+			
+			<a class="btn-letter" href="staff.html">FULL STAFF LIST</a>
+		</div>
 	</div>
 
-	<div id="footer-box">
-    <p style="color: #fff")><a href="http://twitter.com/share?text=How the #ACA is changing the delivery of health care LINKTK #ACAat5" target="_blank"><img src="img/twitter-icon-white.gif" width="50" height="50" style="float: right;"></a><a href="https://www.facebook.com/sharer/sharer.php?u=commonwealthfund.org/ACAat5-delivery-reform" target="_blank"><img src="img/facebook-icon-white.gif" width="70" height="50"  style="float: right; padding-left: 10px"></a>Affordable, quality health care. For everyone.<br><span style="font-family: 'pt_sansregular'; font-size: 16px;">Copyright © 2015 The Commonwealth Fund</span></p>
-</div>
-  
+	<div class="footer">
+		<span class ="footer-tag">Affordable, quality health care. For everyone.</span><br><span class="copyright">Copyright &copy; 2015 The Commonwealth Fund</span>
+	</div>
+
   <script> 
 
 	  $(document).ready(function(){
+
+	  	$('.burger').click(function(){
+			$('.menu').slideToggle()
+    	});
+
+		$(window).resize(function() {
+	      	var w = $(window).width();
+	       	if (w > 475) {
+	           $('.menu').show();
+	     		}
+	     });
 
 	  	$(".header").sticky();
 

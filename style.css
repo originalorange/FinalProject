@@ -37,11 +37,12 @@ h5 {
 }
 
 .subs {
-	font-size:24px;
+	font-size: 20px;
 	font-family: 'Rufina', serif;
 	font-weight: 400;
  	color: orange;
- 	margin-bottom: 0;
+ 	margin-bottom: 10px;
+ 	margin-top: 20px;
 }
 
 h6 {
@@ -61,8 +62,11 @@ hr {
     width: 15%;
     margin-top: 15px;
     padding: 0;
-
 } 
+
+.burger {
+	display: none;
+}
 
 a:link, a:active, a:visited {
 	color: #FF7300;
@@ -131,6 +135,32 @@ a:hover {
 	padding-left: 20px;
 	padding-right: 20px;
 	z-index: 55;
+}
+
+
+.footer {
+	width:100%;
+	height: 100px;
+	background-color: #104269;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 40px;
+}
+
+.footer-tag {
+ font-family: "Rufina";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: white;
+}
+
+.copyright {
+	font-family: "Monda";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.5em;
+  color: white;
 }
 
 .top-photo {
@@ -228,6 +258,7 @@ a:hover {
 	font-size: 16px;
 	float: right;
 	margin-top: 30px;
+	margin-bottom: 40px;
 }
 
 .btn-letter:hover{
@@ -422,8 +453,8 @@ a:hover {
 	margin-bottom: 50px;
 }
 
-.btn-report:hover{
-	opacity: .8;
+a:hover {
+	text-decoration: none;
 }
 
 /*directors & staff*/
@@ -440,13 +471,223 @@ a:hover {
 }
 
 
-#footer-box {
-        position: absolute;
-        width: 100%;
-        height: 150px;
-        padding: 20px 0 30px 0;
-        background-color: #44505b;
-        font-family: "Rufina", serif;
-        font-size: 20px;
-        color: #fff;
-    }
+
+
+
+@media all and (max-width: 475px) {
+
+	h3 {
+	 	font-size:24px;
+ }
+
+	.tagline {
+		font-size: 30px;
+	}
+	
+	#logo img {
+		width: 400px;
+		margin-top: 5px;	
+	}
+
+
+	.burger {
+		width: 60px;
+		margin-top: 20px;
+		margin-left: 360px;
+		position: fixed;
+		z-index: 10;
+		display: block;
+	}
+
+	.menu {
+		display: none;
+		position: fixed;
+		width: 100%;
+
+	}
+
+	.menu ul {
+		margin-top: -8px;
+		margin-left: -10px;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.menu li {
+		list-style-type: none;
+		display: block;
+		background-color: #104269; 
+		border-bottom: 1px solid white;
+		width: 100%;
+		float: right;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		opacity: .9;
+
+	}
+
+	.menu a {
+		text-decoration: none;
+		font-family: 'Montserrat', serif;
+		font-weight: 400;
+		font-size: 14px;
+		color: white;
+		letter-spacing: 2px;
+	}
+
+	.header a:visited, a:active {
+		color: white;
+	}
+
+	.header a:hover {
+		color: #bbd9ea;
+	}
+
+	.lettertitle {
+		font-size: 16px;
+		padding-bottom: 0px;
+		margin-left: -20px;
+	}
+
+	.top-photo {
+		width:100%;
+		height: 800px;
+		background: transparent;
+	}
+
+	.program-coverage {
+		width:100%;
+		height: 600px;
+		background: transparent;
+	}
+
+	.program-dsr {
+		width:100%;
+		height: 600px;
+		background: transparent;
+	}
+
+	.program-ihp {
+		width:100%;
+		height: 600px;
+		background: transparent;
+	}
+
+	.program-bop {
+		width:100%;
+		height: 600px;
+		background: transparent;
+	}
+
+	.program-costs {
+		width:100%;
+		height: 600px;
+		background: transparent;
+	}
+
+
+	.programstitle {
+		font-size: 16px;
+	}
+
+	.programs-body {
+		width: 90%;
+		padding-bottom: 60px;
+	}
+
+	#financials {
+		width: 100%;
+		overflow: auto;
+		padding-bottom: 50px;
+		background-color: #efefef;
+	}
+
+	#financials .programstitle {
+		padding-bottom: 0px;
+	}
+
+	#financials hr {
+		width: 15%;
+	 	border-color: orange;
+	 	margin-bottom: 30px; 
+	 }
+
+	#graph-endowment {
+		width: 100%;
+		height: 200px;
+		margin: 0 auto;
+	}
+
+	.staff-body {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.dbphoto {
+		width: 90%;
+		padding-left: 5px;
+		padding-bottom: 0px;
+	}
+
+	.dbletter {
+		width: 90%;
+		clear:both;
+		padding: 5px;
+	}
+
+	.container p {
+		text-align: center;
+		padding: 0;
+		margin: 0 5px 10px 5px;
+	}
+
+	.subs {
+		text-align: center;
+	}
+
+
+	.letter-container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 30px;
+	}	
+
+	.letterback {
+		padding-left: 30px;
+		padding-right: 30px;	
+	}
+
+.dbheadshot {
+	width: 180px;
+	height: 270px;
+	float: right;
+	background-color: #104269;
+	border: 3px solid #104269;
+	margin-left: 30px;
+}
+
+.dbheadshot img {
+	width: 170px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.dbname h6 {
+	margin-top: -20px;
+	text-align: center;
+}
+
+.dbsignature img {
+	width: 270px;
+	float: left;
+}
+
+a.btn-report:hover {
+	color: #AB3409;
+	text-decoration: none;
+}
+
+}
